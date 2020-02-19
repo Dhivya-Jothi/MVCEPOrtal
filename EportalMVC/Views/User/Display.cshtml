@@ -1,0 +1,65 @@
+﻿@model IEnumerable<DJ_ELearnPortal.Entity.RegistrationUser>
+@{
+	ViewBag.Title = "Display";
+}
+
+<h2>Display</h2>
+
+@Html.ActionLink("Create New UserDetail", "Create")<br />
+
+@if (TempData["Message"] != null)
+{
+	@Html.Label((string)TempData["Message"])
+}
+<h2>books</h2>
+<table border="1">
+	<tr>
+		<td>userRole</td>
+		<td>userId</td>
+		<td>userName</td>
+		<td>password</td>
+		<td>confirmPassword</td>
+		<td>mediumOfStudy</td>
+		<td>mobileNumber</td>
+		<td>mailId</td>
+		<td>userName</td>
+		<td>dateOfBirth</td>
+	</tr>
+	@foreach (DJ_ELearnPortal.Entity.RegistrationUser item in @Model)
+	{
+		<tr>
+			<td>
+				@item.userRole
+			</td>
+			<td>
+				@item.userId
+			</td>
+			<td>
+				@item.userName
+			</td>
+			<td>
+				@item.password
+			</td>
+			<td>
+				@item.confirmPassword
+			</td>
+			<td>
+				@item.mediumOfStudy
+			</td>
+			<td>
+				@item.mobileNumber
+			</td>
+			<td>
+				@item.dateOfBirth
+			</td>
+			<td>
+				@item.mailId
+			</td>
+
+			<td>
+				@Html.ActionLink("Edit", "Edit", new { id = item.userId })
+				@Html.ActionLink("Delete", "Delete", new { id = item.userId })
+			</td>
+		</tr>
+	}
+</table>

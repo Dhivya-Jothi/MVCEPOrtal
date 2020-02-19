@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EportalMVC", "EportalMVC\EportalMVC.csproj", "{75B65204-913C-4FB0-8BFF-F927596C1F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJ_ELearnPortal.BL", "..\DJ_ELearnPortal\DJ_ELearnPortal\DJ_ELearnPortal.BL\DJ_ELearnPortal.BL.csproj", "{9DFACCB4-92B0-447F-899F-6D5FB27372BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJ_ELearnPortal.DAL", "..\DJ_ELearnPortal\DJ_ELearnPortal\DJ_ELearnPortal.DAL\DJ_ELearnPortal.DAL.csproj", "{C45BFC82-3D95-4535-B8DF-FD3B29A4DCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJ_ELearnPortal.PLL", "..\DJ_ELearnPortal\DJ_ELearnPortal\DJ_ELearnPortal.PLL\DJ_ELearnPortal.PLL.csproj", "{561FDC40-0D35-4A6A-BA20-580DB524D79E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJ_ELearnPortal.Common", "..\DJ_ELearnPortal\DJ_ELearnPortal\DJ_ELearnPortal.Common\DJ_ELearnPortal.Common.csproj", "{BB8D849D-5DC7-496F-9C60-B6CEF4ECF01A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJ_ELearnPortal.Entity", "..\DJ_ELearnPortal\DJ_ELearnPortal.Entity\DJ_ELearnPortal.Entity.csproj", "{A4C56C62-9406-4765-8574-9AF8C57509B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75B65204-913C-4FB0-8BFF-F927596C1F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B65204-913C-4FB0-8BFF-F927596C1F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B65204-913C-4FB0-8BFF-F927596C1F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B65204-913C-4FB0-8BFF-F927596C1F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFACCB4-92B0-447F-899F-6D5FB27372BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFACCB4-92B0-447F-899F-6D5FB27372BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFACCB4-92B0-447F-899F-6D5FB27372BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFACCB4-92B0-447F-899F-6D5FB27372BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45BFC82-3D95-4535-B8DF-FD3B29A4DCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45BFC82-3D95-4535-B8DF-FD3B29A4DCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45BFC82-3D95-4535-B8DF-FD3B29A4DCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45BFC82-3D95-4535-B8DF-FD3B29A4DCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561FDC40-0D35-4A6A-BA20-580DB524D79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561FDC40-0D35-4A6A-BA20-580DB524D79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561FDC40-0D35-4A6A-BA20-580DB524D79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561FDC40-0D35-4A6A-BA20-580DB524D79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8D849D-5DC7-496F-9C60-B6CEF4ECF01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8D849D-5DC7-496F-9C60-B6CEF4ECF01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8D849D-5DC7-496F-9C60-B6CEF4ECF01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8D849D-5DC7-496F-9C60-B6CEF4ECF01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C56C62-9406-4765-8574-9AF8C57509B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C56C62-9406-4765-8574-9AF8C57509B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C56C62-9406-4765-8574-9AF8C57509B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C56C62-9406-4765-8574-9AF8C57509B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E10D8C6C-2C81-4B5D-88FB-38B446C5DF91}
+	EndGlobalSection
+EndGlobal
